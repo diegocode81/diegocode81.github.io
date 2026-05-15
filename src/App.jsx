@@ -1,4 +1,5 @@
 import About from "./components/About.jsx";
+import AvailableFor from "./components/AvailableFor.jsx";
 import Contact from "./components/Contact.jsx";
 import CoreExpertise from "./components/CoreExpertise.jsx";
 import ExperienceHighlights from "./components/ExperienceHighlights.jsx";
@@ -14,6 +15,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <AvailableFor />
         <About />
         <CoreExpertise />
         <Skills />

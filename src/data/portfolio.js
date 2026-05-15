@@ -3,6 +3,10 @@ export const profile = {
   title: "QA Architect | Senior Automation Engineer | AI-assisted Quality Engineering",
   subtitle:
     "I design scalable QA automation frameworks, API testing strategies, mobile testing solutions, CI/CD quality gates, and secure AI-assisted workflows to improve software quality and delivery.",
+  heroCta:
+    "Let’s build reliable, scalable, and AI-assisted quality engineering solutions.",
+  contactText:
+    "Let’s connect to improve QA automation, API and mobile testing, CI/CD quality gates, and secure AI-assisted QA workflows.",
   about: [
     "I am a QA Architect and Senior Automation Engineer focused on test automation, API validation, mobile testing, CI/CD quality gates, and AI-assisted QA workflows. I enjoy transforming business requirements into clear acceptance criteria, test scenarios, automation strategies, and reliable quality processes.",
     "I have experience supporting quality engineering initiatives in enterprise and banking environments, where security, traceability, and reliability are critical.",
@@ -27,6 +31,19 @@ export const focusAreas = [
   "Secure AI-assisted QA",
   "CI/CD Quality Gates",
 ];
+
+export const availableFor = {
+  text:
+    "Open to opportunities and collaborations focused on QA architecture, test automation, API and mobile quality engineering, and secure AI-assisted QA workflows.",
+  items: [
+    "QA Architect roles",
+    "Lead QA Engineer roles",
+    "Senior Automation Engineer roles",
+    "API and mobile test automation initiatives",
+    "AI-assisted QA tooling and workflow design",
+    "CI/CD quality engineering improvements",
+  ],
+};
 
 export const expertise = [
   {
@@ -145,8 +162,12 @@ export const skills = [
 export const projects = [
   {
     title: "Claude Secure Proxy QA Debugger",
-    description:
-      "A local secure proxy and VS Code extension designed to help QA analysts analyze logs, stacktraces, and code snippets with Claude API while filtering sensitive data and tracking monthly API usage.",
+    problem:
+      "QA analysts need to analyze logs, stacktraces, and code snippets with AI without exposing sensitive data or exceeding API usage budgets.",
+    solution:
+      "Built a local secure proxy and VS Code extension that sanitizes sensitive information, blocks risky content, sends safe requests to Claude API, and tracks monthly usage through a local dashboard.",
+    outcome:
+      "Created a safer AI-assisted debugging workflow for QA teams, enabling controlled log analysis, secure code review assistance, and better visibility over API consumption.",
     tech: [
       "Node.js",
       "Express",
@@ -156,32 +177,52 @@ export const projects = [
       "QA Debugging",
       "Usage Dashboard",
     ],
+    ctaLabel: "Discuss Project",
+    href: "#contact",
   },
   {
     title: "API Automation Framework",
-    description:
-      "A Karate-based API automation framework with reusable authentication flows, environment management, reporting, and CI/CD-ready execution.",
+    problem:
+      "API testing needs reusable, maintainable, and environment-aware automation to validate backend services consistently across pipelines.",
+    solution:
+      "Designed a Karate-based automation framework with reusable authentication flows, environment configuration, reporting, and CI/CD-ready execution.",
+    outcome:
+      "Improved API validation consistency, reduced manual regression effort, and enabled faster feedback through automated pipeline execution.",
     tech: ["Karate DSL", "Gradle", "JUnit5", "REST API Testing", "Swagger / OpenAPI", "CI/CD"],
+    ctaLabel: "Discuss Project",
+    href: "#contact",
   },
   {
     title: "Mobile Automation Framework",
-    description:
-      "A mobile automation architecture using Appium, WebdriverIO, Cucumber, TypeScript, and Allure Reports for robust Android test execution.",
+    problem:
+      "Mobile applications require stable automation strategies to reduce regression risk and handle flaky UI interactions across Android environments.",
+    solution:
+      "Designed a mobile automation architecture using Appium, WebdriverIO, Cucumber, TypeScript, selector strategies, waits, and Allure Reports.",
+    outcome:
+      "Improved mobile regression coverage, increased execution visibility, and supported more reliable Android test automation.",
     tech: ["Appium", "WebdriverIO", "TypeScript", "Cucumber", "Android", "Allure Reports"],
+    ctaLabel: "Discuss Project",
+    href: "#contact",
   },
   {
     title: "AI-assisted QA Platform Concept",
-    description:
-      "A concept platform to transform business requirements into clarification questions, acceptance criteria, test scenarios, and QA traceability assets.",
+    problem:
+      "QA teams often receive incomplete business requirements, making it difficult to define clear acceptance criteria, scenarios, and traceability.",
+    solution:
+      "Designed a concept platform that uses AI to transform business requirements into clarification questions, acceptance criteria, test scenarios, and QA traceability assets.",
+    outcome:
+      "Created a vision for improving requirement analysis, reducing ambiguity, and accelerating QA artifact generation.",
     tech: ["AI", "QA Analysis", "Requirements Engineering", "Test Design", "Traceability"],
+    ctaLabel: "Discuss Project",
+    href: "#contact",
   },
 ];
 
 export const experienceHighlights = [
-  "Designed QA automation strategies for API and mobile testing.",
+  "Designed QA automation strategies for API and mobile testing initiatives.",
   "Built reusable automation frameworks for enterprise environments.",
-  "Integrated automated tests into CI/CD pipelines.",
-  "Supported QA practices in banking and regulated systems.",
-  "Explored secure AI-assisted workflows for log analysis and QA artifact generation.",
+  "Integrated automated tests into CI/CD pipelines to improve feedback speed.",
+  "Supported QA practices in banking and regulated systems with a focus on reliability and traceability.",
+  "Explored secure AI-assisted workflows for log analysis, debugging, and QA artifact generation.",
   "Promoted traceability between requirements, acceptance criteria, test scenarios, and automation.",
 ];

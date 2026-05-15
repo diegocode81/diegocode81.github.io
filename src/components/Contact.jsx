@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section bg-white">
       <div className="section-shell">
-        <SectionHeader eyebrow="Let’s Connect" title="Let’s connect and build better quality engineering solutions." />
+        <SectionHeader eyebrow="Let’s Connect" title={profile.contactText} />
         <div className="flex flex-col gap-3 sm:flex-row">
           <a href={profile.linkedin} target="_blank" rel="noreferrer" className="contact-link">
             <Linkedin size={19} />

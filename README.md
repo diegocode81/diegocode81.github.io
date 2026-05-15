@@ -17,6 +17,17 @@ https://diegocode81.github.io
 - GitHub Pages
 - gh-pages
 
+## Site Sections
+
+- Hero with professional CTA and DM avatar placeholder
+- Available For
+- About Me
+- Core Expertise
+- Technical Skills
+- Featured Projects with Problem, Solution, Outcome, and Tech Stack
+- Experience Highlights
+- Contact
+
 ## Local Setup
 
 Install dependencies:

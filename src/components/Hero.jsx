@@ -16,6 +16,9 @@ export default function Hero() {
           <p className="mt-6 max-w-2xl text-base leading-8 text-slate-600 sm:text-lg">
             {profile.subtitle}
           </p>
+          <p className="mt-5 max-w-2xl text-base font-semibold leading-7 text-ink">
+            {profile.heroCta}
+          </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a href="#projects" className="primary-button">
@@ -24,7 +27,7 @@ export default function Hero() {
             </a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer" className="secondary-button">
               <Linkedin size={18} />
-              LinkedIn
+              Connect on LinkedIn
             </a>
             <a href={profile.github} target="_blank" rel="noreferrer" className="secondary-button">
               <Github size={18} />
@@ -36,14 +39,14 @@ export default function Hero() {
         <div className="relative">
           <div className="rounded-lg border border-line bg-mist p-4 shadow-soft">
             <div className="rounded-md border border-line bg-white p-5">
-              <div className="mb-5 flex items-center justify-between">
+              <div className="mb-5 flex items-center justify-between gap-4">
                 <div>
                   <p className="text-sm font-semibold text-ink">Quality Engineering Focus</p>
                   <p className="text-xs text-slate-500">Architecture, automation, and delivery confidence</p>
                 </div>
-                <span className="rounded-md bg-quality/10 px-3 py-1 text-xs font-semibold text-quality">
-                  Recruiter-ready
-                </span>
+                <div className="grid h-16 w-16 shrink-0 place-items-center rounded-full bg-ink text-xl font-bold text-white shadow-soft">
+                  DM
+                </div>
               </div>
 
               <div className="flex flex-wrap gap-2">
